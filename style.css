@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -102,4 +103,27 @@ ul li span{
 }
 ul li span:hover{
     color:#ff5945;
+}
+@media screen and (max-width: 540px){
+    .todo-app{
+        margin: 100px 10px 20px;
+        padding: 40px 20px 70px;
+    }
+    .row{
+        padding-left: 10px;
+    }
+    input{
+        padding: 10px;
+    }
+    ul li{
+        font-size: 15px;
+        padding: 10px 8px 10px 50px;
+    }
+    ul li span{
+        width: 30px;
+        height:30px;
+        font-size: 18px;
+        line-height:30px;
+    }
+    
 }
